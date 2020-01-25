@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90feaeed-7306-4234-a839-b5aa5dfd9055" name="Default Changelist" comment="" />
+    <list default="true" id="90feaeed-7306-4234-a839-b5aa5dfd9055" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,19 +97,28 @@
       <option name="project" value="LOCAL" />
       <updated>1579625983768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="trial 25.01.20">
+      <created>1579949430114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579949430114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="travis" />
     <MESSAGE value="travis new version: 1.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="travis new version: 1.6" />
+    <MESSAGE value="trial 25.01.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="trial 25.01.20" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1579625983399">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1579949429596">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579949429596" />
     <state width="596" height="161" key="GridCell.Tab.0.bottom" timestamp="1579628580302">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -128,14 +139,19 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1579625991370">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1579949441270">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579949441270" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1579949378801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579623605480" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579949378801" />
+    <state x="1141" y="305" key="git4idea.merge.GitPullDialog" timestamp="1579950125635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1141" y="305" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579950125635" />
   </component>
 </project>
