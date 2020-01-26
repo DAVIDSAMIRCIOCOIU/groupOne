@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90feaeed-7306-4234-a839-b5aa5dfd9055" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="90feaeed-7306-4234-a839-b5aa5dfd9055" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +41,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Docker.Docker Image">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -79,8 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Dockerfile" />
@@ -146,14 +144,22 @@
       <option name="project" value="LOCAL" />
       <updated>1579949430114</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docker image for mongodb created;&#10;pom.xml file updated for dependencies for mongodb;&#10;remember to leave the properties for mave.compiler.source to 1.6 when copying from practical so java app can run">
+      <created>1580037211336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580037211336</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="travis" />
     <MESSAGE value="travis new version: 1.6" />
     <MESSAGE value="trial 25.01.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="trial 25.01.20" />
+    <MESSAGE value="docker image for mongodb created;&#10;pom.xml file updated for dependencies for mongodb;&#10;remember to leave the properties for mave.compiler.source to 1.6 when copying from practical so java app can run" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker image for mongodb created;&#10;pom.xml file updated for dependencies for mongodb;&#10;remember to leave the properties for mave.compiler.source to 1.6 when copying from practical so java app can run" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1128" y="181" key="#Docker_Image" timestamp="1580036959324">
@@ -164,40 +170,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1001" y="192" key="#Pull_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580036904268" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1579949429596">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1580037210971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579949429596" />
-    <state width="976" height="268" key="GridCell.Tab.0.bottom" timestamp="1580037132754">
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580037210971" />
+    <state width="976" height="268" key="GridCell.Tab.0.bottom" timestamp="1580037236851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="976" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580037132754" />
-    <state width="976" height="268" key="GridCell.Tab.0.center" timestamp="1580037132753">
+    <state width="976" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580037236851" />
+    <state width="976" height="268" key="GridCell.Tab.0.center" timestamp="1580037236851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="976" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580037132753" />
-    <state width="976" height="268" key="GridCell.Tab.0.left" timestamp="1580037132753">
+    <state width="976" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580037236851" />
+    <state width="976" height="268" key="GridCell.Tab.0.left" timestamp="1580037236851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="976" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580037132753" />
-    <state width="976" height="268" key="GridCell.Tab.0.right" timestamp="1580037132753">
+    <state width="976" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580037236851" />
+    <state width="976" height="268" key="GridCell.Tab.0.right" timestamp="1580037236851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="976" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580037132753" />
+    <state width="976" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580037236851" />
     <state x="-20" y="0" key="SettingsEditor" timestamp="1579627310726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580037071557">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580037216856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580037071557" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580037216856" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580036727933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
