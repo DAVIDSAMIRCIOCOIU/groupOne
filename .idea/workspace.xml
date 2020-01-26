@@ -15,7 +15,19 @@
         <option value="DAVIDCIOCOIU95 &lt;43348061+davidciocoiu95@users.noreply.github.com&gt;" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1WiDcJ9zFvgpwcyESjslnffxlBA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -45,6 +57,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="mongo:latest" />
+          <option name="commandLineOptions" value="-p 27000:27017" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -55,8 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -65,7 +92,22 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -114,41 +156,53 @@
     <option name="LAST_COMMIT_MESSAGE" value="trial 25.01.20" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1128" y="181" key="#Docker_Image" timestamp="1580036959324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1128" y="181" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580036959324" />
+    <state x="1001" y="192" key="#Pull_Image" timestamp="1580036904268">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1001" y="192" key="#Pull_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580036904268" />
     <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1579949429596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579949429596" />
-    <state width="596" height="161" key="GridCell.Tab.0.bottom" timestamp="1579628580302">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="976" height="268" key="GridCell.Tab.0.bottom" timestamp="1580037132754">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="596" height="161" key="GridCell.Tab.0.center" timestamp="1579628580302">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="976" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580037132754" />
+    <state width="976" height="268" key="GridCell.Tab.0.center" timestamp="1580037132753">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="596" height="161" key="GridCell.Tab.0.left" timestamp="1579628580302">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="976" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580037132753" />
+    <state width="976" height="268" key="GridCell.Tab.0.left" timestamp="1580037132753">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="596" height="161" key="GridCell.Tab.0.right" timestamp="1579628580302">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="976" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580037132753" />
+    <state width="976" height="268" key="GridCell.Tab.0.right" timestamp="1580037132753">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
+    <state width="976" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580037132753" />
     <state x="-20" y="0" key="SettingsEditor" timestamp="1579627310726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1579949441270">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580037071557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579949441270" />
-    <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1579949378801">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580037071557" />
+    <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580036727933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579623605480" />
-    <state x="506" y="254" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579949378801" />
+    <state x="506" y="254" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580036727933" />
     <state x="1141" y="305" key="git4idea.merge.GitPullDialog" timestamp="1579950125635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
