@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90feaeed-7306-4234-a839-b5aa5dfd9055" name="Default Changelist" comment="">
+    <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.1-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.1-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -66,7 +67,7 @@
           <option name="command" value="" />
           <option name="containerName" value="" />
           <option name="entrypoint" value="" />
-          <option name="imageTag" value="sha256:7da889064af93064a966720e15923304b5b75b50ebe5c7cba325a48c4c670aba" />
+          <option name="imageTag" value="sha256:5c15eea9261d778b63d39b0ed459efa89992f957e562b6059da8e198b86d9d1d" />
           <option name="commandLineOptions" value="--network se-methods" />
         </settings>
       </deployment>
@@ -83,9 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Docker Image" />
       </list>
@@ -197,51 +198,52 @@
     <MESSAGE value="maven code updated&#10;also added utf 8 encoding in propreties&#10;also created jar file" />
     <MESSAGE value="docker new mongodb container created&#10;new container created for jar file&#10;connected over se-methods network bridge" />
     <MESSAGE value="travis code updated for network" />
-    <option name="LAST_COMMIT_MESSAGE" value="travis code updated for network" />
+    <MESSAGE value="changes merged into develop from feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes merged into develop from feature" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1128" y="181" key="#Docker_Image" timestamp="1580038880264">
+    <state x="1128" y="181" key="#Docker_Image" timestamp="1580039696463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1128" y="181" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580038880264" />
+    <state x="1128" y="181" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580039696463" />
     <state x="1001" y="192" key="#Pull_Image" timestamp="1580036904268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1001" y="192" key="#Pull_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580036904268" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1580038341162">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1580039331697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579625983399" />
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580038341162" />
-    <state width="976" height="268" key="GridCell.Tab.0.bottom" timestamp="1580038927922">
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580039331697" />
+    <state width="976" height="268" key="GridCell.Tab.0.bottom" timestamp="1580039674681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="976" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580038927922" />
-    <state width="976" height="268" key="GridCell.Tab.0.center" timestamp="1580038927921">
+    <state width="976" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580039674681" />
+    <state width="976" height="268" key="GridCell.Tab.0.center" timestamp="1580039674681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="976" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580038927921" />
-    <state width="976" height="268" key="GridCell.Tab.0.left" timestamp="1580038927921">
+    <state width="976" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580039674681" />
+    <state width="976" height="268" key="GridCell.Tab.0.left" timestamp="1580039674681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="976" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580038927921" />
-    <state width="976" height="268" key="GridCell.Tab.0.right" timestamp="1580038927921">
+    <state width="976" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580039674681" />
+    <state width="976" height="268" key="GridCell.Tab.0.right" timestamp="1580039674681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="596" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579628580302" />
-    <state width="976" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580038927921" />
+    <state width="976" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580039674681" />
     <state x="-20" y="0" key="SettingsEditor" timestamp="1579627310726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580038345427">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1580039365260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1579625991370" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580038345427" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580039365260" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580036727933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
