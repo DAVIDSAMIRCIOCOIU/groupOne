@@ -12,7 +12,10 @@ public class App
 
         // Connect to database
         a.connect();
-
+        // Test country
+        Country myCountry = new Country();
+        myCountry.getCountry("ABW", a.con);
+        myCountry.displayCountry();
         // Disconnect from database
         a.disconnect();
     }
