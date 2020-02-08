@@ -20,3 +20,8 @@ Communication channels and documents storage:
 - Messenger group chat;
 - Google Drive;
 - Skype.
+
+Team Roles:
+- Product Owner: Ani Georgieva
+- Scrum Master: David Ciocoiu
+All the team members are equally part of the team. 
