@@ -104,9 +104,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.db/Dockerfile" />
         <item itemvalue="Application.App" />
       </list>
@@ -253,26 +253,26 @@
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581130546982" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580039331697" />
-    <state width="1237" height="272" key="GridCell.Tab.0.bottom" timestamp="1581130687232">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1151" height="455" key="GridCell.Tab.0.bottom" timestamp="1581169480999">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="272" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581130687232" />
-    <state width="976" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580039674681" />
-    <state width="1237" height="272" key="GridCell.Tab.0.center" timestamp="1581130687232">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1151" height="455" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581169480999" />
+    <state width="1151" height="455" key="GridCell.Tab.0.center" timestamp="1581169480999">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="272" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581130687232" />
-    <state width="976" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580039674681" />
-    <state width="1237" height="272" key="GridCell.Tab.0.left" timestamp="1581130687232">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1151" height="455" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581169480999" />
+    <state width="1151" height="455" key="GridCell.Tab.0.left" timestamp="1581169480999">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="272" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581130687232" />
-    <state width="976" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580039674681" />
-    <state width="1237" height="272" key="GridCell.Tab.0.right" timestamp="1581130687232">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1151" height="455" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581169480999" />
+    <state width="1151" height="455" key="GridCell.Tab.0.right" timestamp="1581169480999">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="272" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581130687232" />
-    <state width="976" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580039674681" />
+    <state width="1151" height="455" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581169480999" />
     <state x="1034" y="240" key="MultipleFileMergeDialog" timestamp="1581169184934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
