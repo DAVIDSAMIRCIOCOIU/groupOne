@@ -16,6 +16,7 @@ public class App
         Country myCountry = new Country();
         myCountry.getCountry("ABW", a.con);
         myCountry.displayCountry();
+        myCountry.largestToSmallestPopulation(a.con);
         // Disconnect from database
         a.disconnect();
     }

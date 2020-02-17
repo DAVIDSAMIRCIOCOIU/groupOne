@@ -1,6 +1,8 @@
 package com.napier.sem;
 
 import java.sql.*;
+import java.util.ArrayList;
+
 /** Holds data about a country*/
 public class Country {
 
@@ -40,7 +42,6 @@ public class Country {
         {
             System.out.println(e.getMessage());
             System.out.println("Failed to get country details.");
-            return;
         }
 
     }
@@ -51,11 +52,43 @@ public class Country {
         {
             System.out.println( "Displaying country\n" +
                     "Code: " + this.code + "\n" +
-                            " Name: "+ this.name + "\n" +
+                            "Name: "+ this.name + "\n" +
                             "Continent: " + this.region + "\n" +
                     "Population: " + this.population + "\n" +
                     "Capital: " + this.capital
             );
+        }
+    }
+
+    public void largestToSmallestPopulation(Connection con)
+    {
+        try
+        {
+            Statement stmt = con.createStatement();
+            String strSelect = "SELECT Name, Population " +
+                    "FROM country " +
+                    "ORDER BY Population";
+            ResultSet rset = stmt.executeQuery(strSelect);
+
+            ArrayList<Country> countries = new ArrayList<Country>();
+            while (rset.next())
+            {
+                Country country = new Country();
+                country.name = rset.getString("name");
+                country.population = rset.getInt("population");
+                countries.add(country);
+            }
+            System.out.println("\n" + "Largest to smallest population by country\n");
+            for (Country co : countries)
+            {
+            System.out.println( "Name: "+ co.name + "\n" +
+                    "Population: " + co.population + "\n"
+            );
+            }
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get country details.");
         }
     }
 }
