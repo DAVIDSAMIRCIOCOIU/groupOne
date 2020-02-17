@@ -1,10 +1,10 @@
-# USE CASE: 4 Produce a Report on all capital cities in a given continent.
+# USE CASE: 4 Produce a Report on the top n capital cities in a given continent.
 
 ## CHARACTERISTIC INFORMATION
 
 ### Goal in Context
 
-As the organisation i want to be able to sort all the capital cities in a continent by largest population to smallest so that i can compare capital population.
+As the user i want to be able to make a report of the top N populated capital cities in a continent, where N is provided by the me, so that i can check most populated capitals.
 
 ### Scope
 
@@ -32,12 +32,12 @@ Organisation.
 
 ### Trigger
 
-A request for the capital cities in a given continent sorted by largest population to smallest.
+A request for the top n capital cities in a given continent.
 
 ## MAIN SUCCESS SCENARIO
 
-1. Need of retrieving the capital cities in a continent sorted by largest population to smallest.
-2. The user queries the database selecting the above option and giving a continent as an input. 
+1. Need of retrieving the top n capital cities in a given continent, where n is provided by the user.
+2. The user queries the database selecting the above option and giving n and a continent as input.
 3. A report from the database is given back to the organization.
 
 ## EXTENSIONS

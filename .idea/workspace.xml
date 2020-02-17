@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8218b607-a7bf-4a80-b562-d6235084853d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-10.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-11.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-12.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-13.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-14.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-15.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-16.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-17.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-6.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-7.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-8.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-9.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-19.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-20.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-21.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-22.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-23.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-24.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-25.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-26.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use-cases/use-case-27.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-18.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-18.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +29,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="AniGeorgieva &lt;60117107+anigeorgieva@users.noreply.github.com&gt;" />
         <option value="DAVIDCIOCOIU95 &lt;43348061+davidciocoiu95@users.noreply.github.com&gt;" />
+        <option value="AniGeorgieva &lt;60117107+anigeorgieva@users.noreply.github.com&gt;" />
       </list>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -223,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581130547754</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="use cases up to 17 done, needs revision">
+      <created>1581969936844</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581969936844</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,7 +238,8 @@
     <MESSAGE value="changes merged into develop from feature" />
     <MESSAGE value="world db addedd" />
     <MESSAGE value="GitHub Issue #1 Solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="GitHub Issue #1 Solved" />
+    <MESSAGE value="use cases up to 17 done, needs revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="use cases up to 17 done, needs revision" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1128" y="181" key="#Docker_Image" timestamp="1580039696463">
@@ -257,10 +258,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1581889150262" />
-    <state x="356" y="0" width="961" height="808" key="CommitChangelistDialog2" timestamp="1581898042060">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="297" y="0" width="961" height="808" key="CommitChangelistDialog2" timestamp="1581969936391">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581130546982" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581969936391" />
     <state x="356" y="0" width="961" height="808" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581898042060" />
     <state x="446" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580039331697" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581897891139">
