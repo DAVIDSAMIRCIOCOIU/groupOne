@@ -3,7 +3,16 @@ package com.napier.sem;
 import java.sql.*;
 import java.util.ArrayList;
 
-/** Holds data about a country*/
+/** Holds data about a country
+ *
+ * Authors:
+ * Mihail Benev
+ * Ani Georgieva
+ * David Ciocoiu
+ * Tibor Toth
+ *
+ * Last updated - 18.02.2020
+ * */
 public class Country {
 
     public String code; // char in world.db

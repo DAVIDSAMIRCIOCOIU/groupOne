@@ -1,8 +1,17 @@
 package com.napier.sem;
 
-
 import java.sql.*;
-
+/**
+ * Main application
+ *
+ * Authors:
+ * Mihail Benev
+ * Ani Georgieva
+ * David Ciocoiu
+ * Tibor Toth
+ *
+ * Last updated - 18.02.2020
+ **/
 public class App
 {
     public static void main(String[] args)
