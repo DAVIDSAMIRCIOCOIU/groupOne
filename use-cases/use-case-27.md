@@ -31,11 +31,11 @@ Organisation.
 
 ### Trigger
 
-A request for the tot. population, population living in cities and population not living in cities for each country.
+A request for a Report on the number of people speaking Chinese, English, Hindi, Spanish and Arabic from greatest number to smallest, including the percentage of the world population.
 
 ## MAIN SUCCESS SCENARIO
 
-1. Need of retrieving the data for the tot. population, population living in cities and population not living in cities for each country.
+1. Need of retrieving the data for the number of people speaking Chinese, English, Hindi, Spanish and Arabic from greatest number to smallest, including the percentage of the world population.
 2. The user queries the database selecting the above option.
 3. A report from the database is given back to the organization.
 
