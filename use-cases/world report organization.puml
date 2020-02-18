@@ -110,7 +110,7 @@ actor Person as "Organisation"
 
        rectangle "Population Information" {
            usecase UC1 as "Get all cities in the world
-		   organised by descneding population"
+		   organised by descending population"
 
            usecase UCa as "Print cities"
 
@@ -126,7 +126,7 @@ actor Person as "Organisation"
 
        rectangle "Population Information" {
            usecase UC1 as "Get all cities in a continent
-		   organised by descneding population"
+		   organised by descending population"
 
            usecase UCa as "Print cities"
 
@@ -142,7 +142,7 @@ actor Person as "Organisation"
 
        rectangle "Population Information" {
            usecase UC1 as "Get all cities in a region
-		   organised by descneding population"
+		   organised by descending population"
 
            usecase UCa as "Print cities"
 
@@ -158,7 +158,7 @@ actor Person as "Organisation"
 
        rectangle "Population Information" {
            usecase UC1 as "Get all cities in a country
-		   organised by descneding population"
+		   organised by descending population"
 
            usecase UCa as "Print cities"
 
@@ -174,7 +174,7 @@ actor Person as "Organisation"
 
        rectangle "Population Information" {
            usecase UC1 as "Get all cities in a district
-		   organised by descneding population"
+		   organised by descending population"
 
            usecase UCa as "Print cities"
 

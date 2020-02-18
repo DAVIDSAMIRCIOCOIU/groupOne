@@ -29,21 +29,13 @@ public class Country {
                 this.region = rset.getString("Region");
                 this.population = rset.getInt("Population");
                 this.capital = rset.getInt("Capital");
-
             }
-            else
-            {
-                return;
-            }
-
-
         }
         catch(Exception e)
         {
             System.out.println(e.getMessage());
             System.out.println("Failed to get country details.");
         }
-
     }
     //** Displays country details */
     public void displayCountry()
@@ -60,16 +52,19 @@ public class Country {
         }
     }
 
+    /* Display a list of countries in the world organized by descending population */
     public void largestToSmallestPopulation(Connection con)
     {
         try
         {
+            //SQL statement to get the data out of the database
             Statement stmt = con.createStatement();
             String strSelect = "SELECT Name, Population " +
                     "FROM country " +
                     "ORDER BY Population";
             ResultSet rset = stmt.executeQuery(strSelect);
 
+            //Array with all the countries
             ArrayList<Country> countries = new ArrayList<Country>();
             while (rset.next())
             {
@@ -78,7 +73,10 @@ public class Country {
                 country.population = rset.getInt("population");
                 countries.add(country);
             }
+
             System.out.println("\n" + "Largest to smallest population by country\n");
+
+            //Loop through the countries and print them
             for (Country co : countries)
             {
             System.out.println( "Name: "+ co.name + "\n" +
