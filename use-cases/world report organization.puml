@@ -1,18 +1,408 @@
 @startuml
 
-actor HR as "Organization"
 
-rectangle Database
+       actor Person as "Organisation"
 
-rectangle "HR System" {
-    usecase UC4 as "Get salaries
-    by role"
+       rectangle Database
 
-    usecase UCa as "Print salaries"
+       rectangle "Population Information" {
+           usecase UC1 as "Get all countries in the world organised
+           by descending population"
 
-    HR - UC4
-    UC4 ..> UCa : include
-    UC4 - Database
-}
+           usecase UCa as "Print countries"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+
+       newpage
+
+       actor Person as "Organisation"
+
+              rectangle Database
+
+              rectangle "Population Information" {
+              usecase UC1 as "Get all countries in a continent organised
+              by descending population"
+
+               usecase UCa as "Print countries"
+
+               Person - UC1
+               UC1 ..> UCa :  include
+               UC1 - Database
+        }
+
+
+       newpage
+
+          actor Person as "Organisation"
+
+                      rectangle Database
+
+                      rectangle "Population Information" {
+                      usecase UC1 as "Get all countries in a region organised
+                      by descending population"
+
+                       usecase UCa as "Print countries"
+
+                       Person - UC1
+                       UC1 ..> UCa :  include
+                       UC1 - Database
+                }
+
+       newpage
+       newpage
+
+      actor Person as "Organisation"
+
+             rectangle Database
+
+             rectangle "Population Information" {
+                 usecase UC1 as "Get top N populated countries in the world
+      		   - where N is provided by the user"
+
+                 usecase UCa as "Print countries"
+
+                 Person - UC1
+                 UC1 ..> UCa :  include
+                 UC1 - Database
+             }
+             newpage
+
+      actor Person as "Organisation"
+
+             rectangle Database
+
+             rectangle "Population Information" {
+                 usecase UC1 as "Get top N populated countries in a continent
+      		   - where N is provided by the user"
+
+                 usecase UCa as "Print countries"
+
+                 Person - UC1
+                 UC1 ..> UCa :  include
+                 UC1 - Database
+             }
+             newpage
+
+      actor Person as "Organisation"
+
+             rectangle Database
+
+             rectangle "Population Information" {
+                 usecase UC1 as "Get top N populated countries in a region
+      		   - where N is provided by the user"
+
+                 usecase UCa as "Print countries"
+
+                 Person - UC1
+                 UC1 ..> UCa :  include
+                 UC1 - Database
+             }
+             newpage
+
+newpage
+
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get all cities in the world
+		   organised by descneding population"
+
+           usecase UCa as "Print cities"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get all cities in a continent
+		   organised by descneding population"
+
+           usecase UCa as "Print cities"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get all cities in a region
+		   organised by descneding population"
+
+           usecase UCa as "Print cities"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get all cities in a country
+		   organised by descneding population"
+
+           usecase UCa as "Print cities"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get all cities in a district
+		   organised by descneding population"
+
+           usecase UCa as "Print cities"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+
+newpage
+newpage
+
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get top N populated cities in the world
+		   - where N is provided by the user"
+
+           usecase UCa as "Print cities"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get top N populated cities in a continent
+		   - where N is provided by the user"
+
+           usecase UCa as "Print cities"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get top N populated cities in a region
+		   - where N is provided by the user"
+
+           usecase UCa as "Print cities"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get top N populated cities in a country
+		   - where N is provided by the user"
+
+           usecase UCa as "Print cities"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get top N populated cities in a district
+		   - where N is provided by the user"
+
+           usecase UCa as "Print cities"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+
+newpage
+newpage
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get all capitals organised
+           by descending population"
+
+           usecase UCa as "Print capitals."
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get all capitals in a continent organised
+           by descending population"
+
+           usecase UCa as "Print capitals."
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get all capitals in a region organised
+           by descending population"
+
+           usecase UCa as "Print capitals."
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+newpage
+
+
+       actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get top N populated capitals in the world
+		   - where N is provided by the user"
+
+           usecase UCa as "Print capitals"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+
+
+       actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get top N populated capitals in a continent
+		   - where N is provided by the user"
+
+           usecase UCa as "Print capitals"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+
+
+       actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get top N populated capitals in a region
+		   - where N is provided by the user"
+
+           usecase UCa as "Print capitals"
+
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+
+newpage
+newpage
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get population of people living in / not in the cities in each continent"
+
+           usecase UCa as "Print population"
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get population of people living in / not in the cities in each region"
+
+           usecase UCa as "Print population"
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
+newpage
+actor Person as "Organisation"
+
+       rectangle Database
+
+       rectangle "Population Information" {
+           usecase UC1 as "Get population of people living in / not in the cities country"
+
+           usecase UCa as "Print population"
+           Person - UC1
+           UC1 ..> UCa :  include
+           UC1 - Database
+       }
 
 @enduml
