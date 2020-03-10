@@ -118,7 +118,8 @@ public class App
             Statement stmt = con.createStatement();
             String strSelect = "SELECT * " +
                     "FROM country " + whereQuery +
-                    "ORDER BY Population";
+                    "ORDER BY Population " +
+                    "DESC";
             ResultSet rset = stmt.executeQuery(strSelect);
 
             //Array with all the countries
@@ -145,4 +146,6 @@ public class App
             System.out.println("Failed to get country details.");
         }
     }
+
+
 }
