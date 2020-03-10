@@ -1,29 +1,42 @@
+
 package com.napier.sem;
 
 import java.sql.*;
 
+/** Holds data about a city
+ *
+ * Authors:
+ * Mihail Benev
+ * Ani Georgieva
+ * David Ciocoiu
+ * Tibor Toth
+ *
+ * Last updated - 10.03.2020
+ * */
 public class City {
 
+    //Variables
     private int id;
     private String name;
     private String countryCode;
     private String district;
     private int population;
 
-    public void getCity(String ID, Connection con)
+    //Gets the city
+    public void getCity(int ID, Connection con)
     {
         try
         {
             Statement stmt = con.createStatement();
-            String strSelect = "SELECT ID, Name, Country Code, District, Population, FROM country WHERE Code LIKE '" + ID + "%'";
+            String strSelect = "SELECT ID, Name, CountryCode, District, Population, FROM city";
             ResultSet rset = stmt.executeQuery(strSelect);
             if(rset.next())
             {
                 this.setId(rset.getInt("ID"));
-                this.setName(rset.getString("Name"));
-                this.setCountryCode(rset.getString("Country Code"));
+                this.setName(rset.getString("city.Name"));
+                this.setCountryCode(rset.getString("CountryCode"));
                 this.setDistrict(rset.getString("District"));
-                this.setPopulation(rset.getInt("Population"));
+                this.setPopulation(rset.getInt("city.Population"));
             }
         }
         catch(Exception e)
@@ -33,6 +46,7 @@ public class City {
         }
     }
 
+    //Getters and Setters
     public int getId() {
         return id;
     }
@@ -72,6 +86,8 @@ public class City {
     public void setPopulation(int population) {
         this.population = population;
     }
+
+    //Displays City
     public void displayCity()
     {
         if(this != null)

@@ -4,6 +4,10 @@
     <list default="true" id="e5fc9870-2aa1-4020-abef-7bf6456b9374" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.4-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.4-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.4.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,12 +152,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Docker-compose: groupOne" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="db" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
                 <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
@@ -251,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583856855625</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed order">
+      <created>1583857298562</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583857298562</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -268,7 +273,8 @@
     <MESSAGE value="GitHub Issue #1 Solved" />
     <MESSAGE value="getters and setters" />
     <MESSAGE value="City class and fixed display methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="City class and fixed display methods" />
+    <MESSAGE value="Fixed order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed order" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1128" y="181" key="#Docker_Image" timestamp="1580039696463">
@@ -293,36 +299,36 @@
     </state>
     <state x="345" y="24" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1583851686493" />
     <state x="518" y="37" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583855042738" />
-    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1583856853939">
+    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1583857297129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583851262944" />
     <state x="356" y="0" width="961" height="808" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582030480878" />
-    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583856853939" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1583857225410">
+    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583857297129" />
+    <state width="938" height="282" key="GridCell.Tab.0.bottom" timestamp="1583860267365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582030258861" />
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583857225410" />
-    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1583857225409">
+    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583860267365" />
+    <state width="938" height="282" key="GridCell.Tab.0.center" timestamp="1583860267365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582030258861" />
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583857225409" />
-    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1583857225409">
+    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583860267365" />
+    <state width="938" height="282" key="GridCell.Tab.0.left" timestamp="1583860267365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582030258860" />
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583857225409" />
-    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1583857225409">
+    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583860267365" />
+    <state width="938" height="282" key="GridCell.Tab.0.right" timestamp="1583860267365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582030258861" />
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583857225409" />
+    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583860267365" />
     <state x="827" y="190" key="MultipleFileMergeDialog" timestamp="1582028498747">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
