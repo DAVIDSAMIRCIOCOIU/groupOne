@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5fc9870-2aa1-4020-abef-7bf6456b9374" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +27,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -244,6 +243,10 @@
     </state>
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1582028228267" />
     <state x="773" y="381" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582036106774" />
+    <state x="345" y="24" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1583849981200">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="345" y="24" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1583849981200" />
     <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1582036225568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -283,10 +286,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
-    <state x="280" y="91" key="Vcs.Push.Dialog.v2" timestamp="1582030502706">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1583851240494">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581130929038" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583851240494" />
     <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582030502706" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581169707585" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580036727933">
@@ -317,5 +320,57 @@
     </state>
     <state x="753" y="242" key="git4idea.ui.GitTagDialog/0.0.1280.680@0.0.1280.680" timestamp="1581950822893" />
     <state x="1129" y="370" key="git4idea.ui.GitTagDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581169159650" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile1" value="file://$PROJECT_DIR$/../App2.suml" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../App.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>

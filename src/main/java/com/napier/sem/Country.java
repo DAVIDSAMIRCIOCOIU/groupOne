@@ -15,12 +15,12 @@ import java.util.ArrayList;
  * */
 public class Country {
 
-    public String code; // char in world.db
-    public String name; // char in world.db
-    public String continent; // enum in world.db
-    public String region; // char in world.db
-    public int population; // int in world.db
-    public int capital; // int in world.db (Every city has a unique ID as a PK. This is a JOIN ON country.Capital = city.ID)
+    private String code; // char in world.db
+    private String name; // char in world.db
+    private String continent; // enum in world.db
+    private String region; // char in world.db
+    private int population; // int in world.db
+    private int capital; // int in world.db (Every city has a unique ID as a PK. This is a JOIN ON country.Capital = city.ID)
 
     //** Gets the country*/
     public void getCountry(String ID, Connection con)
@@ -52,11 +52,11 @@ public class Country {
         if(this != null)
         {
             System.out.println( "Displaying country\n" +
-                    "Code: " + this.code + "\n" +
-                            "Name: "+ this.name + "\n" +
-                            "Continent: " + this.region + "\n" +
-                    "Population: " + this.population + "\n" +
-                    "Capital: " + this.capital
+                    "Code: " + this.getCode() + "\n" +
+                            "Name: "+ this.getName() + "\n" +
+                            "Continent: " + this.getRegion() + "\n" +
+                    "Population: " + this.getPopulation() + "\n" +
+                    "Capital: " + this.getCapital()
             );
         }
     }
@@ -88,8 +88,8 @@ public class Country {
             //Loop through the countries and print them
             for (Country co : countries)
             {
-            System.out.println( "Name: "+ co.name + "\n" +
-                    "Population: " + co.population + "\n"
+            System.out.println( "Name: "+ co.getName() + "\n" +
+                    "Population: " + co.getPopulation() + "\n"
             );
             }
 
@@ -97,5 +97,26 @@ public class Country {
             System.out.println(e.getMessage());
             System.out.println("Failed to get country details.");
         }
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+
+    public String getRegion() {
+        return region;
+    }
+
+    public int getPopulation() {
+        return population;
+    }
+
+    public int getCapital() {
+        return capital;
     }
 }
