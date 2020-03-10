@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * David Ciocoiu
  * Tibor Toth
  *
- * Last updated - 18.02.2020
+ * Last updated - 10.03.2020
  **/
 public class App
 {
@@ -27,19 +27,19 @@ public class App
         Country myCountry = new Country();
         myCountry.getCountry("ABW", a.con);
         myCountry.displayCountry();
-/*
+
         // Get countries in world
         System.out.println("Print countries in the world **********************************************");
         a.largestToSmallestPopulationInCountry("");
 
-        // Get countries in world
+        // Get countries in continent
         System.out.println("Print countries in the continent **********************************************");
         a.largestToSmallestPopulationInCountry("WHERE continent LIKE 'North America'");
 
-        // Get countries in world
+        // Get countries in region
         System.out.println("Print countries in the region **********************************************");
         a.largestToSmallestPopulationInCountry("WHERE region LIKE 'Caribbean'");
-*/
+
         // Get cities in world
         System.out.println("Print cities in the world **********************************************");
         a.largestToSmallestPopulationInCity("");
@@ -54,7 +54,7 @@ public class App
 
         // Get cities in country
         System.out.println("Print cities in the country **********************************************");
-        a.largestToSmallestPopulationInCity("WHERE country LIKE 'Romania'");
+        a.largestToSmallestPopulationInCity("WHERE country.Name LIKE 'Romania'");
 
         // Get cities in district
         System.out.println("Print cities in the district **********************************************");
@@ -130,7 +130,7 @@ public class App
         }
     }
 
-    /* Display a list of countries in the world organized by descending population */
+    /* Display a list of countries in a specific area organized by descending population */
     public void largestToSmallestPopulationInCountry(String whereQuery)
     {
         try
@@ -167,7 +167,7 @@ public class App
             System.out.println("Failed to get country details.");
         }
     }
-
+    /* Display a list of cities in a specific area organized by descending population */
     public void largestToSmallestPopulationInCity(String whereQuery)
     {
         try
@@ -193,7 +193,7 @@ public class App
 
             System.out.println("\n" + "Largest to smallest population by city\n");
 
-            //Loop through the countries and print them
+            //Loop through the cities and print them
             for (City ci : cities)
             {
                 ci.displayCity();

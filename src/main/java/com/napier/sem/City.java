@@ -28,7 +28,7 @@ public class City {
         try
         {
             Statement stmt = con.createStatement();
-            String strSelect = "SELECT ID, Name, CountryCode, District, Population, FROM city";
+            String strSelect = "SELECT ID, Name, CountryCode, District, Population FROM city WHERE ID = " + ID ;
             ResultSet rset = stmt.executeQuery(strSelect);
             if(rset.next())
             {
