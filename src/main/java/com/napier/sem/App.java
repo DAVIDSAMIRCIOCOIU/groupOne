@@ -28,6 +28,8 @@ public class App
         myCountry.getCountry("ABW", a.con);
         myCountry.displayCountry();
 
+    //GET COUNTRIES METHOD INPUTS AND OUTPUTS
+
         // Get countries in world
         System.out.println("Print countries in the world **********************************************");
         a.largestToSmallestPopulationInCountry("");
@@ -39,6 +41,8 @@ public class App
         // Get countries in region
         System.out.println("Print countries in the region **********************************************");
         a.largestToSmallestPopulationInCountry("WHERE region LIKE 'Caribbean'");
+
+    //GET CITIES METHOD INPUTS AND OUTPUTS
 
         // Get cities in world
         System.out.println("Print cities in the world **********************************************");
@@ -59,6 +63,22 @@ public class App
         // Get cities in district
         System.out.println("Print cities in the district **********************************************");
         a.largestToSmallestPopulationInCity("WHERE District LIKE 'Varna'");
+
+    //GET CAPITALS METHOD INPUTS AND OUTPUTS
+
+        // Get capitals in world
+        System.out.println("Print capitals in the world **********************************************");
+        a.largestToSmallestPopulationCapitals("");
+
+        // Get capitals in continent
+        System.out.println("Print capitals in the continent **********************************************");
+        a.largestToSmallestPopulationCapitals("WHERE continent LIKE 'North America'");
+
+        // Get capitals in region
+        System.out.println("Print capitals in the region **********************************************");
+        a.largestToSmallestPopulationCapitals("WHERE region LIKE 'Caribbean'");
+
+
 
 
         // Disconnect from database
@@ -205,5 +225,37 @@ public class App
         }
     }
 
+    public void largestToSmallestPopulationCapitals(String whereQuery) {
+        try {
+            //SQL statement to get the data out of the database
+            Statement stmt = con.createStatement();
+            String strSelect = "SELECT * " +
+                    "FROM city JOIN country ON city.ID = country.Capital " + whereQuery + " " +
+                    "ORDER BY city.Population " +
+                    "DESC";
+            ResultSet rset = stmt.executeQuery(strSelect);
+
+            //Array with all the capitals
+            ArrayList<City> capitals = new ArrayList<City>();
+            while (rset.next()) {
+                int cityID = rset.getInt("ID");
+                City city = new City();
+                city.getCity(cityID, con);
+
+                capitals.add(city);
+            }
+
+            System.out.println("\n" + "Largest to smallest population by capital\n");
+
+            //Loop through the cities and print them
+            for (City cap : capitals) {
+                cap.displayCity();
+            }
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get city details.");
+        }
     }
+}
 
