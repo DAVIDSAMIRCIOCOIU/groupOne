@@ -137,11 +137,7 @@ public class App
             //Loop through the countries and print them
             for (Country co : countries)
             {
-                System.out.println( "Name: "+ co.getName() + "\n" +
-                        "Population: " + co.getPopulation() + "\n" +
-                        "Region: " + co.getRegion() + "\n" +
-                        "Continent" + co.getContinent() + "\n"
-                );
+                co.displayCountry();
             }
 
         } catch (Exception e) {

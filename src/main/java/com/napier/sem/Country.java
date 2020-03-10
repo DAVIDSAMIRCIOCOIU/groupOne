@@ -53,9 +53,10 @@ public class Country {
             System.out.println( "Displaying country\n" +
                     "Code: " + this.getCode() + "\n" +
                             "Name: "+ this.getName() + "\n" +
-                            "Continent: " + this.getRegion() + "\n" +
+                            "Region: " + this.getRegion() + "\n" +
+                            "Continent: " + this.getContinent() + "\n" +
                     "Population: " + this.getPopulation() + "\n" +
-                    "Capital: " + this.getCapital()
+                    "Capital: " + this.getCapital() + "\n"
             );
         }
     }
