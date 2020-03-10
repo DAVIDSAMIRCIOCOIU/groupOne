@@ -1,6 +1,8 @@
 package com.napier.sem;
 
 import java.sql.*;
+import java.util.ArrayList;
+
 /**
  * Main application
  *
@@ -25,7 +27,19 @@ public class App
         Country myCountry = new Country();
         myCountry.getCountry("ABW", a.con);
         myCountry.displayCountry();
-        myCountry.largestToSmallestPopulation(a.con);
+
+        // Get countries in world
+        System.out.println("Print countries in the world **********************************************");
+        a.largestToSmallestPopulationInCountry("");
+
+        // Get countries in world
+        System.out.println("Print countries in the continent **********************************************");
+        a.largestToSmallestPopulationInCountry("WHERE continent LIKE 'North America'");
+
+        // Get countries in world
+        System.out.println("Print countries in the region **********************************************");
+        a.largestToSmallestPopulationInCountry("WHERE region LIKE 'Caribbean'");
+
         // Disconnect from database
         a.disconnect();
     }
@@ -92,6 +106,47 @@ public class App
             {
                 System.out.println("Error closing connection to database");
             }
+        }
+    }
+
+    /* Display a list of countries in the world organized by descending population */
+    public void largestToSmallestPopulationInCountry(String whereQuery)
+    {
+        try
+        {
+            //SQL statement to get the data out of the database
+            Statement stmt = con.createStatement();
+            String strSelect = "SELECT * " +
+                    "FROM country " + whereQuery +
+                    "ORDER BY Population";
+            ResultSet rset = stmt.executeQuery(strSelect);
+
+            //Array with all the countries
+            ArrayList<Country> countries = new ArrayList<Country>();
+            while (rset.next())
+            {
+                String countryCode = rset.getString("code");
+                Country country = new Country();
+                country.getCountry(countryCode, con);
+
+                countries.add(country);
+            }
+
+            System.out.println("\n" + "Largest to smallest population by country\n");
+
+            //Loop through the countries and print them
+            for (Country co : countries)
+            {
+                System.out.println( "Name: "+ co.getName() + "\n" +
+                        "Population: " + co.getPopulation() + "\n" +
+                        "Region: " + co.getRegion() + "\n" +
+                        "Continent" + co.getContinent() + "\n"
+                );
+            }
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get country details.");
         }
     }
 }

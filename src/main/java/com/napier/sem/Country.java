@@ -1,7 +1,6 @@
 package com.napier.sem;
 
 import java.sql.*;
-import java.util.ArrayList;
 
 /** Holds data about a country
  *
@@ -32,12 +31,12 @@ public class Country {
             ResultSet rset = stmt.executeQuery(strSelect);
             if(rset.next())
             {
-                this.code = rset.getString("Code");
-                this.name = rset.getString("Name");
-                this.continent = rset.getString("Continent");
-                this.region = rset.getString("Region");
-                this.population = rset.getInt("Population");
-                this.capital = rset.getInt("Capital");
+                this.setCode(rset.getString("Code"));
+                this.setName(rset.getString("Name"));
+                this.setContinent(rset.getString("Continent"));
+                this.setRegion(rset.getString("Region"));
+                this.setPopulation(rset.getInt("Population"));
+                this.setCapital(rset.getInt("Capital"));
             }
         }
         catch(Exception e)
@@ -61,43 +60,7 @@ public class Country {
         }
     }
 
-    /* Display a list of countries in the world organized by descending population */
-    public void largestToSmallestPopulation(Connection con)
-    {
-        try
-        {
-            //SQL statement to get the data out of the database
-            Statement stmt = con.createStatement();
-            String strSelect = "SELECT Name, Population " +
-                    "FROM country " +
-                    "ORDER BY Population";
-            ResultSet rset = stmt.executeQuery(strSelect);
 
-            //Array with all the countries
-            ArrayList<Country> countries = new ArrayList<Country>();
-            while (rset.next())
-            {
-                Country country = new Country();
-                country.name = rset.getString("name");
-                country.population = rset.getInt("population");
-                countries.add(country);
-            }
-
-            System.out.println("\n" + "Largest to smallest population by country\n");
-
-            //Loop through the countries and print them
-            for (Country co : countries)
-            {
-            System.out.println( "Name: "+ co.getName() + "\n" +
-                    "Population: " + co.getPopulation() + "\n"
-            );
-            }
-
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-            System.out.println("Failed to get country details.");
-        }
-    }
 
     public String getCode() {
         return code;
@@ -107,6 +70,9 @@ public class Country {
         return name;
     }
 
+    public String getContinent() {
+        return continent;
+    }
 
     public String getRegion() {
         return region;
@@ -118,5 +84,29 @@ public class Country {
 
     public int getCapital() {
         return capital;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setContinent(String continent) {
+        this.continent = continent;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
+    }
+
+    public void setPopulation(int population) {
+        this.population = population;
+    }
+
+    public void setCapital(int capital) {
+        this.capital = capital;
     }
 }
