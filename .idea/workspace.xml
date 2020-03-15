@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5fc9870-2aa1-4020-abef-7bf6456b9374" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/CountryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/CityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/CityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="217" />
+    <option name="myElementSize" value="240" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="seMethods" />
@@ -314,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584294183177</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="countrytest added&#10;country constructor added">
+      <created>1584297039656</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584297039656</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +342,8 @@
     <MESSAGE value="Comments, updates &#10;City doesn't yet work" />
     <MESSAGE value="Maven integration for unit test." />
     <MESSAGE value="unit test file added and code coverage initiated" />
-    <option name="LAST_COMMIT_MESSAGE" value="unit test file added and code coverage initiated" />
+    <MESSAGE value="countrytest added&#10;country constructor added" />
+    <option name="LAST_COMMIT_MESSAGE" value="countrytest added&#10;country constructor added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1128" y="181" key="#Docker_Image" timestamp="1580039696463">
@@ -371,36 +376,36 @@
     </state>
     <state x="345" y="24" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1583851686493" />
     <state x="518" y="37" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583855042738" />
-    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1584294182052">
+    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1584297038956">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583851262944" />
     <state x="356" y="0" width="961" height="808" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583864344837" />
-    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584294182052" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1584296939719">
+    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584297038956" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1584297429836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583865013075" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584296939719" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1584296939719">
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584297429836" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1584297429836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583865013074" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584296939719" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1584296939719">
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584297429836" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1584297429836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583865013073" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584296939719" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1584296939719">
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584297429836" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1584297429836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583865013074" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584296939719" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584297429836" />
     <state x="827" y="190" key="MultipleFileMergeDialog" timestamp="1582028498747">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -455,7 +460,7 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584292711700" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/seMethods$com_napier_sem_in_seMethods.ic" NAME="com.napier.sem in seMethods Coverage Results" MODIFIED="1584296939691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/seMethods$com_napier_sem_in_seMethods.ic" NAME="com.napier.sem in seMethods Coverage Results" MODIFIED="1584297429809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.napier.sem.App</FILTER>
       <FILTER>com.napier.sem.City</FILTER>
       <FILTER>com.napier.sem.Country</FILTER>
