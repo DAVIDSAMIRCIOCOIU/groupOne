@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5fc9870-2aa1-4020-abef-7bf6456b9374" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.4-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.4-jar-with-dependencies.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/seMethods-0.1.0.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/seMethods-0.1.0.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +72,7 @@
       <recent name="C:\Users\david\IdeaProjects\groupOne\db\test_db" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Docker Image">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -140,7 +134,7 @@
           <option name="command" value="" />
           <option name="containerName" value="" />
           <option name="entrypoint" value="" />
-          <option name="imageTag" value="kevinchalmers/employees:latest" />
+          <option name="imageTag" value="kevinchalmers/world:latest" />
           <option name="commandLineOptions" value="-e MYSQL_ROOT_PASSWORD=example -p 33060:3306" />
         </settings>
       </deployment>
@@ -180,11 +174,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579623600078</updated>
-      <workItem from="1584391184157" duration="2310000" />
+      <workItem from="1584391184157" duration="2852000" />
     </task>
     <task id="LOCAL-00001" summary="travis">
       <created>1579624867511</created>
@@ -367,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584393048845</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="maven dependency modified to 8.0.19">
+      <created>1584393529471</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1584393529471</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,13 +397,14 @@
     <MESSAGE value="maven updated with lab8" />
     <MESSAGE value="Updating connect&#10;Below is our updated connect method. The updated lines are:&#10;&#10;The method definition adds a location parameter.&#10;Class.forName which uses the most up-to-date MySQL driver.&#10;Driver.getConnection uses the location, and also updates the parameters to use allowPublicKeyRetrieval=true as we are using a more up-to-date version of MySQL.:" />
     <MESSAGE value="connect modified with correct world info" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect modified with correct world info" />
+    <MESSAGE value="maven dependency modified to 8.0.19" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven dependency modified to 8.0.19" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1128" y="181" key="#Docker_Image" timestamp="1584393247542">
+    <state x="1128" y="181" key="#Docker_Image" timestamp="1584393746855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1128" y="181" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1584393247542" />
+    <state x="1128" y="181" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1584393746855" />
     <state x="1001" y="192" key="#Pull_Image" timestamp="1584392670099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -429,36 +431,36 @@
     </state>
     <state x="345" y="24" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1583851686493" />
     <state x="518" y="37" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583855042738" />
-    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1584393048414">
+    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1584393528905">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583851262944" />
     <state x="356" y="0" width="961" height="808" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583864344837" />
-    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584393048414" />
-    <state width="998" height="352" key="GridCell.Tab.0.bottom" timestamp="1584393418456">
+    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584393528905" />
+    <state width="998" height="352" key="GridCell.Tab.0.bottom" timestamp="1584393899065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583865013075" />
-    <state width="998" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584393418456" />
-    <state width="998" height="352" key="GridCell.Tab.0.center" timestamp="1584393418455">
+    <state width="998" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584393899065" />
+    <state width="998" height="352" key="GridCell.Tab.0.center" timestamp="1584393899065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583865013074" />
-    <state width="998" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584393418455" />
-    <state width="998" height="352" key="GridCell.Tab.0.left" timestamp="1584393418455">
+    <state width="998" height="352" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584393899065" />
+    <state width="998" height="352" key="GridCell.Tab.0.left" timestamp="1584393899065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583865013073" />
-    <state width="998" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584393418455" />
-    <state width="998" height="352" key="GridCell.Tab.0.right" timestamp="1584393418455">
+    <state width="998" height="352" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584393899065" />
+    <state width="998" height="352" key="GridCell.Tab.0.right" timestamp="1584393899065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583853912256" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583865013074" />
-    <state width="998" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584393418455" />
+    <state width="998" height="352" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584393899065" />
     <state x="827" y="190" key="MultipleFileMergeDialog" timestamp="1582028498747">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -469,12 +471,12 @@
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584292246724" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1584393054098">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1584393536380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583851268374" />
     <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582030502706" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584393054098" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584393536380" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580036727933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
