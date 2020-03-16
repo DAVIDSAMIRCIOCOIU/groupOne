@@ -23,8 +23,7 @@ jobs:
       install: skip
       script: mvn test -Dtest=com.napier.sem.AppTest
     - stage: integration tests
-
-      script: echo "Integration Tests"
+      script: mvn test -Dtest=com.napier.sem.AppIntegrationTest
     - stage: deploy
       install: skip
       script: echo "Deploy"
