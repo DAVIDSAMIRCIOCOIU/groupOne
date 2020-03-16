@@ -26,7 +26,9 @@ jobs:
       script: mvn test -Dtest=com.napier.sem.AppIntegrationTest
     - stage: deploy
       install: skip
-      script: echo "Deploy"
+      script:
+        - mvn package -DskipTests=true -Dmaven.javadoc.skip=true
+        - docker-compose up --abort-on-container-exit
 
 stages:
   - unit tests
