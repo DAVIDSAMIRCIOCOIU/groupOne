@@ -144,6 +144,33 @@ public class App
         }
     }
 
+    // Returns a city class after getting the city by id from the db
+    public City getCity(int ID)
+    {
+        City myCity = new City();
+        try
+        {
+            Statement stmt = con.createStatement();
+            String strSelect = "SELECT ID, Name, CountryCode, District, Population FROM city WHERE ID = " + ID ;
+            ResultSet rset = stmt.executeQuery(strSelect);
+            if(rset.next())
+            {
+                myCity.setId(rset.getInt("ID"));
+                myCity.setName(rset.getString("city.Name"));
+                myCity.setCountryCode(rset.getString("CountryCode"));
+                myCity.setDistrict(rset.getString("District"));
+                myCity.setPopulation(rset.getInt("city.Population"));
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get city details.");
+        }
+
+        return myCity;
+    }
+
     /* Display a list of countries in a specific area organized by descending population */
     public void largestToSmallestPopulationInCountry(String whereQuery)
     {
@@ -199,8 +226,7 @@ public class App
             while (rset.next())
             {
                 int cityID = rset.getInt("ID");
-                City city = new City();
-                city.getCity(cityID, con);
+                City city = getCity(cityID);
 
                 cities.add(city);
             }
@@ -233,8 +259,7 @@ public class App
             ArrayList<City> capitals = new ArrayList<City>();
             while (rset.next()) {
                 int cityID = rset.getInt("ID");
-                City city = new City();
-                city.getCity(cityID, con);
+                City city = getCity(cityID);
 
                 capitals.add(city);
             }

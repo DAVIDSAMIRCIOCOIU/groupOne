@@ -34,30 +34,6 @@ public class City {
         this.population = population;
     }
 
-    //Gets the city
-    public void getCity(int ID, Connection con)
-    {
-        try
-        {
-            Statement stmt = con.createStatement();
-            String strSelect = "SELECT ID, Name, CountryCode, District, Population FROM city WHERE ID = " + ID ;
-            ResultSet rset = stmt.executeQuery(strSelect);
-            if(rset.next())
-            {
-                this.setId(rset.getInt("ID"));
-                this.setName(rset.getString("city.Name"));
-                this.setCountryCode(rset.getString("CountryCode"));
-                this.setDistrict(rset.getString("District"));
-                this.setPopulation(rset.getInt("city.Population"));
-            }
-        }
-        catch(Exception e)
-        {
-            System.out.println(e.getMessage());
-            System.out.println("Failed to get city details.");
-        }
-    }
-
     //Getters and Setters
     public int getId() {
         return id;
