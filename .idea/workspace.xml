@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5fc9870-2aa1-4020-abef-7bf6456b9374" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579623600078</updated>
-      <workItem from="1584391184157" duration="2852000" />
+      <workItem from="1584391184157" duration="3554000" />
     </task>
     <task id="LOCAL-00001" summary="travis">
       <created>1579624867511</created>
@@ -368,7 +368,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584393529471</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="travis code added">
+      <created>1584394047397</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1584394047397</updated>
+    </task>
+    <task id="LOCAL-00023" summary="travis code updated with jobs">
+      <created>1584394219380</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1584394219380</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +412,9 @@
     <MESSAGE value="Updating connect&#10;Below is our updated connect method. The updated lines are:&#10;&#10;The method definition adds a location parameter.&#10;Class.forName which uses the most up-to-date MySQL driver.&#10;Driver.getConnection uses the location, and also updates the parameters to use allowPublicKeyRetrieval=true as we are using a more up-to-date version of MySQL.:" />
     <MESSAGE value="connect modified with correct world info" />
     <MESSAGE value="maven dependency modified to 8.0.19" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven dependency modified to 8.0.19" />
+    <MESSAGE value="travis code added" />
+    <MESSAGE value="travis code updated with jobs" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis code updated with jobs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1128" y="181" key="#Docker_Image" timestamp="1584393746855">
@@ -431,12 +447,12 @@
     </state>
     <state x="345" y="24" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1583851686493" />
     <state x="518" y="37" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583855042738" />
-    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1584394047014">
+    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1584394219042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583851262944" />
     <state x="356" y="0" width="961" height="808" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583864344837" />
-    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584394047014" />
+    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584394219042" />
     <state width="998" height="352" key="GridCell.Tab.0.bottom" timestamp="1584393899065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -471,12 +487,12 @@
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584292246724" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1584393536380">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1584394531435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583851268374" />
     <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582030502706" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584393536380" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584394531435" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580036727933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
