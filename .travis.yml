@@ -28,3 +28,9 @@ jobs:
     - stage: deploy
       install: skip
       script: echo "Deploy"
+
+stages:
+  - unit tests
+  - integration tests
+  - name: deploy
+    if: branch = master
