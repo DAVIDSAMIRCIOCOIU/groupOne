@@ -21,6 +21,19 @@ public class Country {
     private int population; // int in world.db
     private int capital; // int in world.db (Every city has a unique ID as a PK. This is a JOIN ON country.Capital = city.ID)
 
+    // Constructor
+
+    public Country() {}
+
+    public Country(String code, String name, String continent, String region, int population, int capital) {
+        this.code = code;
+        this.name = name;
+        this.continent = continent;
+        this.region = region;
+        this.population = population;
+        this.capital = capital;
+    }
+
     //** Gets the country*/
     public void getCountry(String ID, Connection con)
     {

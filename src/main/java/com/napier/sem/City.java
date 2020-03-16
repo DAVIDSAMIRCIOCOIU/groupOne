@@ -22,6 +22,18 @@ public class City {
     private String district;
     private int population;
 
+    // Constructors
+
+    public City() {}
+
+    public City(int id, String name, String countryCode, String district, int population) {
+        this.id = id;
+        this.name = name;
+        this.countryCode = countryCode;
+        this.district = district;
+        this.population = population;
+    }
+
     //Gets the city
     public void getCity(int ID, Connection con)
     {
