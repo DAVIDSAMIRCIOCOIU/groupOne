@@ -72,7 +72,7 @@
       <recent name="C:\Users\david\IdeaProjects\groupOne\db\test_db" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.napier.sem in seMethods">
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -134,8 +134,8 @@
           <option name="command" value="" />
           <option name="containerName" value="" />
           <option name="entrypoint" value="" />
-          <option name="imageTag" value="sha256:5c15eea9261d778b63d39b0ed459efa89992f957e562b6059da8e198b86d9d1d" />
-          <option name="commandLineOptions" value="--network se-methods" />
+          <option name="imageTag" value="kevinchalmers/world:latest" />
+          <option name="commandLineOptions" value="-e MYSQL_ROOT_PASSWORD=example -p 33060:3306" />
         </settings>
       </deployment>
       <method v="2" />
@@ -175,11 +175,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.db/Dockerfile" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -205,7 +215,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579623600078</updated>
-      <workItem from="1584391184157" duration="965000" />
+      <workItem from="1584391184157" duration="1839000" />
     </task>
     <task id="LOCAL-00001" summary="travis">
       <created>1579624867511</created>
@@ -333,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584391630441</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updating connect&#10;Below is our updated connect method. The updated lines are:&#10;&#10;The method definition adds a location parameter.&#10;Class.forName which uses the most up-to-date MySQL driver.&#10;Driver.getConnection uses the location, and also updates the parameters to use allowPublicKeyRetrieval=true as we are using a more up-to-date version of MySQL.:">
+      <created>1584392191890</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1584392191890</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,17 +377,18 @@
     <MESSAGE value="countrytest added&#10;country constructor added" />
     <MESSAGE value="city test added" />
     <MESSAGE value="maven updated with lab8" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven updated with lab8" />
+    <MESSAGE value="Updating connect&#10;Below is our updated connect method. The updated lines are:&#10;&#10;The method definition adds a location parameter.&#10;Class.forName which uses the most up-to-date MySQL driver.&#10;Driver.getConnection uses the location, and also updates the parameters to use allowPublicKeyRetrieval=true as we are using a more up-to-date version of MySQL.:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating connect&#10;Below is our updated connect method. The updated lines are:&#10;&#10;The method definition adds a location parameter.&#10;Class.forName which uses the most up-to-date MySQL driver.&#10;Driver.getConnection uses the location, and also updates the parameters to use allowPublicKeyRetrieval=true as we are using a more up-to-date version of MySQL.:" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1128" y="181" key="#Docker_Image" timestamp="1580039696463">
+    <state x="1128" y="181" key="#Docker_Image" timestamp="1584392723737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1128" y="181" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580039696463" />
-    <state x="1001" y="192" key="#Pull_Image" timestamp="1580036904268">
+    <state x="1128" y="181" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1584392723737" />
+    <state x="1001" y="192" key="#Pull_Image" timestamp="1584392670099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1001" y="192" key="#Pull_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1580036904268" />
+    <state x="1001" y="192" key="#Pull_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1584392670099" />
     <state x="414" y="175" width="1092" height="741" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584294064645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -393,12 +411,12 @@
     </state>
     <state x="345" y="24" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1583851686493" />
     <state x="518" y="37" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583855042738" />
-    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1584391630013">
+    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2" timestamp="1584392191444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1583851262944" />
     <state x="356" y="0" width="961" height="808" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583864344837" />
-    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584391630013" />
+    <state x="766" y="127" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584392191444" />
     <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1584297429836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -433,12 +451,12 @@
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584292246724" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1584391638424">
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2" timestamp="1584392408492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1583851268374" />
     <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582030502706" />
-    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584391638424" />
+    <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584392408492" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580036727933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
