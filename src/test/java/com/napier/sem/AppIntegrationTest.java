@@ -22,8 +22,7 @@ public class AppIntegrationTest
     @Test
     void testGetCity()
     {
-       // City myCity = app.getCity(1464);
-       // assertEquals(myCity.getName(), "Roma");
-        assertEquals(5,5);
+       City myCity = app.getCity(1464);
+       assertEquals(myCity.getName().toString(), "Roma");
     }
 }
