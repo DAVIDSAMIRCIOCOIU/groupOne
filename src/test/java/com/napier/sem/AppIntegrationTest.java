@@ -20,10 +20,11 @@ public class AppIntegrationTest
     }
 
     @Test
+    // First country should be USA
     void testLargestToSmallestPopulationInCountry()
     {
         ArrayList<Country> myList = app.largestToSmallestPopulationInCountry("WHERE continent LIKE 'North America'");
-       
+        assertEquals(myList.get(0).getCode(), "USA");
     }
 
     @Test
