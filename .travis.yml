@@ -21,7 +21,7 @@ jobs:
   include:
     - stage: unit tests
       install: skip
-      script: mvn test -Dtest=com.napier.sem.AppTest,com.napier.sem.CountryTest
+      script: mvn test -Dtest=com.napier.sem.AppTest,com.napier.sem.CountryTest,com.napier.sem.CityTest
     - stage: integration tests
       script: mvn test -Dtest=com.napier.sem.AppIntegrationTest
     - stage: deploy
