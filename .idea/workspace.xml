@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5fc9870-2aa1-4020-abef-7bf6456b9374" name="Default Changelist" comment="Code coverage added">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/Country.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="e5fc9870-2aa1-4020-abef-7bf6456b9374" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,23 +195,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Docker-compose: groupOne" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Docker-compose: groupOne" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="app" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Docker-compose: groupOne" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="db" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -525,16 +499,20 @@
       <option name="project" value="LOCAL" />
       <updated>1584451089516</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="master no jacoco">
+      <created>1584454330199</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1584454330199</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Maven integration for unit test." />
-    <MESSAGE value="unit test file added and code coverage initiated" />
-    <MESSAGE value="countrytest added&#10;country constructor added" />
     <MESSAGE value="city test added" />
     <MESSAGE value="maven updated with lab8" />
     <MESSAGE value="Updating connect&#10;Below is our updated connect method. The updated lines are:&#10;&#10;The method definition adds a location parameter.&#10;Class.forName which uses the most up-to-date MySQL driver.&#10;Driver.getConnection uses the location, and also updates the parameters to use allowPublicKeyRetrieval=true as we are using a more up-to-date version of MySQL.:" />
@@ -557,7 +535,10 @@
     <MESSAGE value="docker file modified to new jar and database names;&#10;travis file modified for deploy stage" />
     <MESSAGE value="Code coverage added" />
     <MESSAGE value="Docker Compose changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker Compose changed" />
+    <MESSAGE value="working after no jacoco" />
+    <MESSAGE value="master working after no jacoco" />
+    <MESSAGE value="master no jacoco" />
+    <option name="LAST_COMMIT_MESSAGE" value="master no jacoco" />
   </component>
   <component name="WindowStateProjectService">
     <state x="902" y="121" key="#Docker_Image" timestamp="1584452492301">
