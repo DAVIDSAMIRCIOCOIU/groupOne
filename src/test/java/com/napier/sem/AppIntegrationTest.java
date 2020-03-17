@@ -25,4 +25,6 @@ public class AppIntegrationTest
        City myCity = app.getCity(1464);
        assertEquals(myCity.getName().toString(), "Roma");
     }
+
+    
 }
