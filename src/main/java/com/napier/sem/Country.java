@@ -36,19 +36,20 @@ public class Country {
 
 
     //** Displays country details */
-    public void displayCountry()
+    public String displayCountry()
     {
+        String answer = "";
         if(this != null)
         {
-            System.out.println( "Displaying country\n" +
+            answer = ("Displaying country\n" +
                     "Code: " + this.getCode() + "\n" +
                             "Name: "+ this.getName() + "\n" +
                             "Region: " + this.getRegion() + "\n" +
                             "Continent: " + this.getContinent() + "\n" +
                     "Population: " + this.getPopulation() + "\n" +
-                    "Capital: " + this.getCapital() + "\n"
-            );
+                    "Capital: " + this.getCapital() + "\n");
         }
+        return answer;
     }
 
 

@@ -20,10 +20,10 @@ public class AppIntegrationTest
     }
 
     @Test
-    void testGetCity()
+    void testLargestToSmallestPopulationInCountry()
     {
-       City myCity = app.getCity(1464);
-       assertEquals(myCity.getName(), "Roma");
+        ArrayList<Country> myList = app.largestToSmallestPopulationInCountry("WHERE continent LIKE 'North America'");
+       
     }
 
     @Test
@@ -33,5 +33,13 @@ public class AppIntegrationTest
         assertEquals(myCountry.getName(), "Italy");
     }
 
-    
+    @Test
+    void testGetCity()
+    {
+        City myCity = app.getCity(1464);
+        assertEquals(myCity.getName(), "Roma");
+    }
+
+
+
 }
