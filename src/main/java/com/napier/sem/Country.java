@@ -34,30 +34,7 @@ public class Country {
         this.capital = capital;
     }
 
-    //** Gets the country*/
-    public void getCountry(String ID, Connection con)
-    {
-        try
-        {
-            Statement stmt = con.createStatement();
-            String strSelect = "SELECT Code, Name, Continent, Region, Population, Capital FROM country WHERE Code LIKE '" + ID + "%'";
-            ResultSet rset = stmt.executeQuery(strSelect);
-            if(rset.next())
-            {
-                this.setCode(rset.getString("Code"));
-                this.setName(rset.getString("Name"));
-                this.setContinent(rset.getString("Continent"));
-                this.setRegion(rset.getString("Region"));
-                this.setPopulation(rset.getInt("Population"));
-                this.setCapital(rset.getInt("Capital"));
-            }
-        }
-        catch(Exception e)
-        {
-            System.out.println(e.getMessage());
-            System.out.println("Failed to get country details.");
-        }
-    }
+
     //** Displays country details */
     public void displayCountry()
     {

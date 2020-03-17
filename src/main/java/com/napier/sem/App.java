@@ -31,8 +31,7 @@ public class App
             a.connect(args[0]);
         }
         // Test country
-        Country myCountry = new Country();
-        myCountry.getCountry("ABW", a.con);
+        Country myCountry = getCountry("ABW");
         myCountry.displayCountry();
 
     //GET COUNTRIES METHOD INPUTS AND OUTPUTS
@@ -95,7 +94,7 @@ public class App
     /**
      * Connection to MySQL database.
      */
-    private Connection con = null;
+    private static Connection con = null;
 
     /**
      * Connect to the MySQL database.
@@ -152,7 +151,7 @@ public class App
     }
 
     // Returns a city class after getting the city by id from the db
-    public City getCity(int ID)
+    public static City getCity(int ID)
     {
         City myCity = new City();
         try
@@ -178,6 +177,34 @@ public class App
         return myCity;
     }
 
+    //** Gets the country from db and return the country as an object*/
+    public static Country getCountry(String ID)
+    {
+        Country myCountry = new Country();
+        try
+        {
+            Statement stmt = con.createStatement();
+            String strSelect = "SELECT Code, Name, Continent, Region, Population, Capital FROM country WHERE Code LIKE '" + ID + "%'";
+            ResultSet rset = stmt.executeQuery(strSelect);
+            if(rset.next())
+            {
+                myCountry.setCode(rset.getString("Code"));
+                myCountry.setName(rset.getString("Name"));
+                myCountry.setContinent(rset.getString("Continent"));
+                myCountry.setRegion(rset.getString("Region"));
+                myCountry.setPopulation(rset.getInt("Population"));
+                myCountry.setCapital(rset.getInt("Capital"));
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get country details.");
+        }
+
+        return myCountry;
+    }
+
     /* Display a list of countries in a specific area organized by descending population */
     public void largestToSmallestPopulationInCountry(String whereQuery)
     {
@@ -196,8 +223,7 @@ public class App
             while (rset.next())
             {
                 String countryCode = rset.getString("code");
-                Country country = new Country();
-                country.getCountry(countryCode, con);
+                Country country = getCountry(countryCode);
 
                 countries.add(country);
             }
