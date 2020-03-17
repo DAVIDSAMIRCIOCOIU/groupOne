@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5fc9870-2aa1-4020-abef-7bf6456b9374" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/AppIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/Country.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +27,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="DAVIDCIOCOIU95 &lt;david.samir.ciocoiu@gmail.com&gt;" />
         <option value="Tibor Toth &lt;40400971@live.napier.ac.uk&gt;" />
+        <option value="DAVIDCIOCOIU95 &lt;david.samir.ciocoiu@gmail.com&gt;" />
         <option value="AniGeorgieva &lt;60117107+anigeorgieva@users.noreply.github.com&gt;" />
         <option value="DAVIDCIOCOIU95 &lt;43348061+davidciocoiu95@users.noreply.github.com&gt;" />
         <option value="Mihail Benev &lt;60147762+shandura2@users.noreply.github.com&gt;" />
@@ -180,9 +181,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.db/Dockerfile" />
         <item itemvalue="Application.App" />
       </list>
@@ -197,6 +198,23 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Docker-compose: groupOne" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Docker-compose: groupOne" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="app" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Docker-compose: groupOne" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="db" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -508,14 +526,20 @@
       <option name="project" value="LOCAL" />
       <updated>1584454684154</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="test get Country">
+      <created>1584455347233</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1584455347233</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="unit test file added and code coverage initiated" />
     <MESSAGE value="countrytest added&#10;country constructor added" />
     <MESSAGE value="city test added" />
     <MESSAGE value="maven updated with lab8" />
@@ -540,7 +564,8 @@
     <MESSAGE value="Code coverage added" />
     <MESSAGE value="Docker Compose changed" />
     <MESSAGE value="master merged into develop" />
-    <option name="LAST_COMMIT_MESSAGE" value="master merged into develop" />
+    <MESSAGE value="test get Country" />
+    <option name="LAST_COMMIT_MESSAGE" value="test get Country" />
   </component>
   <component name="WindowStateProjectService">
     <state x="902" y="121" key="#Docker_Image" timestamp="1584452492301">
@@ -584,34 +609,34 @@
     </state>
     <state x="345" y="24" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1280.680@0.0.1280.680" timestamp="1583851686493" />
     <state x="518" y="37" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583855042738" />
-    <state x="297" y="0" width="691" height="805" key="CommitChangelistDialog2" timestamp="1584454683787">
+    <state x="297" y="0" width="691" height="805" key="CommitChangelistDialog2" timestamp="1584455676273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584454683787" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1584455676273" />
     <state x="356" y="0" width="961" height="808" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584453157644" />
     <state x="1229" y="193" width="691" height="805" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584399141418" />
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom" timestamp="1584454157214">
+    <state width="1237" height="193" key="GridCell.Tab.0.bottom" timestamp="1584455399061">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584454157214" />
+    <state width="1237" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584455399061" />
     <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584453046917" />
     <state width="998" height="137" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584398237952" />
-    <state width="1237" height="157" key="GridCell.Tab.0.center" timestamp="1584454157213">
+    <state width="1237" height="193" key="GridCell.Tab.0.center" timestamp="1584455399059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584454157213" />
+    <state width="1237" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584455399059" />
     <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584453046916" />
     <state width="998" height="137" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584398237951" />
-    <state width="1237" height="157" key="GridCell.Tab.0.left" timestamp="1584454157213">
+    <state width="1237" height="193" key="GridCell.Tab.0.left" timestamp="1584455399059">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584454157213" />
+    <state width="1237" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584455399059" />
     <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584453046916" />
     <state width="998" height="137" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584398237951" />
-    <state width="1237" height="157" key="GridCell.Tab.0.right" timestamp="1584454157213">
+    <state width="1237" height="193" key="GridCell.Tab.0.right" timestamp="1584455399060">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584454157213" />
+    <state width="1237" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584455399060" />
     <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584453046917" />
     <state width="998" height="137" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584398237952" />
     <state x="827" y="190" key="MultipleFileMergeDialog" timestamp="1584449758034">
@@ -624,10 +649,10 @@
     </state>
     <state x="-20" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579627310726" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584292246724" />
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1584455233838">
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1584455357042">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584455233838" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1584455357042" />
     <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584452869455" />
     <state x="350" y="115" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584398872037" />
     <state x="506" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1580036727933">
