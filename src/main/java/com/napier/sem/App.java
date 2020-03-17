@@ -84,9 +84,6 @@ public class App
         System.out.println("Print capitals in the region **********************************************");
         a.largestToSmallestPopulationCapitals("WHERE region LIKE 'Caribbean'");
 
-
-
-
         // Disconnect from database
         a.disconnect();
     }
@@ -206,8 +203,9 @@ public class App
     }
 
     /* Display a list of countries in a specific area organized by descending population */
-    public void largestToSmallestPopulationInCountry(String whereQuery)
+    public ArrayList<Country> largestToSmallestPopulationInCountry(String whereQuery)
     {
+        ArrayList<Country> myCountryList = new ArrayList<Country>();
         try
         {
             //SQL statement to get the data out of the database
@@ -224,7 +222,6 @@ public class App
             {
                 String countryCode = rset.getString("code");
                 Country country = getCountry(countryCode);
-
                 countries.add(country);
             }
 
@@ -233,17 +230,22 @@ public class App
             //Loop through the countries and print them
             for (Country co : countries)
             {
-                co.displayCountry();
+                myCountryList.add(co);
+                System.out.println(co.displayCountry());
             }
+            return myCountryList;
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
             System.out.println("Failed to get country details.");
+            return null;
         }
     }
+
     /* Display a list of cities in a specific area organized by descending population */
-    public void largestToSmallestPopulationInCity(String whereQuery)
+    public ArrayList<City> largestToSmallestPopulationInCity(String whereQuery)
     {
+        ArrayList<City> myCitiesList = new ArrayList<City>();
         try
         {
             //SQL statement to get the data out of the database
@@ -269,16 +271,20 @@ public class App
             //Loop through the cities and print them
             for (City ci : cities)
             {
-                ci.displayCity();
+                myCitiesList.add(ci);
+                System.out.println(ci.displayCity());
             }
+            return cities;
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
             System.out.println("Failed to get city details.");
+            return null;
         }
     }
 
-    public void largestToSmallestPopulationCapitals(String whereQuery) {
+    public ArrayList<City> largestToSmallestPopulationCapitals(String whereQuery) {
+        ArrayList<City> myCapitalsList = new ArrayList<City>();
         try {
             //SQL statement to get the data out of the database
             Statement stmt = con.createStatement();
@@ -293,7 +299,6 @@ public class App
             while (rset.next()) {
                 int cityID = rset.getInt("ID");
                 City city = getCity(cityID);
-
                 capitals.add(city);
             }
 
@@ -301,12 +306,15 @@ public class App
 
             //Loop through the cities and print them
             for (City cap : capitals) {
-                cap.displayCity();
+                myCapitalsList.add(cap);
+                System.out.println(cap.displayCity());
             }
+            return capitals;
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
             System.out.println("Failed to get city details.");
+            return null;
         }
     }
 }
