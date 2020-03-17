@@ -76,16 +76,18 @@ public class City {
     }
 
     //Displays City
-    public void displayCity()
+    public String displayCity()
     {
+        String answer = "";
         if(this != null)
         {
-            System.out.println("Displaying city: \n" + "Name: " + this.getName() + "\n" +
+            answer = ("Displaying city: \n" + "Name: " + this.getName() + "\n" +
                     "ID:" + this.getId() + "\n" +
                     "Country Code: " + this.getCountryCode() + "\n" +
                     "District: " + this.getDistrict() + "\n" +
                     "Population: " + this.getPopulation() + "\n"
         );
         }
+        return answer;
     }
 }

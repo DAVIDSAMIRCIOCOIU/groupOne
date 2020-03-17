@@ -20,14 +20,6 @@ public class AppIntegrationTest
     }
 
     @Test
-    // First country should be USA
-    void testLargestToSmallestPopulationInCountry()
-    {
-        ArrayList<Country> myList = app.largestToSmallestPopulationInCountry("WHERE continent LIKE 'North America'");
-        assertEquals(myList.get(0).getCode(), "USA");
-    }
-
-    @Test
     void testGetCountry()
     {
         Country myCountry = app.getCountry("ITA");
@@ -40,6 +32,32 @@ public class AppIntegrationTest
         City myCity = app.getCity(1464);
         assertEquals(myCity.getName(), "Roma");
     }
+
+    @Test
+    // First country should be USA
+    void testLargestToSmallestPopulationInCountry()
+    {
+        ArrayList<Country> myList = app.largestToSmallestPopulationInCountry("WHERE continent LIKE 'North America'");
+        assertEquals(myList.get(0).getCode(), "USA");
+    }
+
+    @Test
+        // First id should be 2515
+    void testlargestToSmallestPopulationInCity()
+    {
+        ArrayList<City> myList = app.largestToSmallestPopulationInCity("WHERE continent LIKE 'North America'");
+        assertEquals(myList.get(0).getId(), 2515);
+    }
+
+    @Test
+        // First id should be 2515
+    void testlargestToSmallestPopulationCapitals()
+    {
+        ArrayList<City> myList = app.largestToSmallestPopulationCapitals("WHERE continent LIKE 'North America'");
+        assertEquals(myList.get(0).getId(), 2515);
+    }
+
+
 
 
 

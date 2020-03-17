@@ -37,55 +37,52 @@ public class App
     //GET COUNTRIES METHOD INPUTS AND OUTPUTS
 
         // Get countries in world
-        //System.out.println("Print countries in the world **********************************************");
-        //a.largestToSmallestPopulationInCountry("");
+        System.out.println("Print countries in the world **********************************************");
+        a.largestToSmallestPopulationInCountry("");
 
         // Get countries in continent
         System.out.println("Print countries in the continent **********************************************");
         a.largestToSmallestPopulationInCountry("WHERE continent LIKE 'North America'");
 
         // Get countries in region
-        //System.out.println("Print countries in the region **********************************************");
-        //a.largestToSmallestPopulationInCountry("WHERE region LIKE 'Caribbean'");
+        System.out.println("Print countries in the region **********************************************");
+        a.largestToSmallestPopulationInCountry("WHERE region LIKE 'Caribbean'");
 
     //GET CITIES METHOD INPUTS AND OUTPUTS
 
         // Get cities in world
-        //System.out.println("Print cities in the world **********************************************");
-        //a.largestToSmallestPopulationInCity("");
+        System.out.println("Print cities in the world **********************************************");
+        a.largestToSmallestPopulationInCity("");
 
         // Get cities in continent
-        //System.out.println("Print cities in the continent **********************************************");
-        //a.largestToSmallestPopulationInCity("WHERE continent LIKE 'North America'");
+        System.out.println("Print cities in the continent **********************************************");
+        a.largestToSmallestPopulationInCity("WHERE continent LIKE 'North America'");
 
         // Get cities in region
-        //System.out.println("Print cities in the region **********************************************");
-        //a.largestToSmallestPopulationInCity("WHERE region LIKE 'Caribbean'");
+        System.out.println("Print cities in the region **********************************************");
+        a.largestToSmallestPopulationInCity("WHERE region LIKE 'Caribbean'");
 
         // Get cities in country
-        //System.out.println("Print cities in the country **********************************************");
-        //a.largestToSmallestPopulationInCity("WHERE country.Name LIKE 'Romania'");
+        System.out.println("Print cities in the country **********************************************");
+        a.largestToSmallestPopulationInCity("WHERE country.Name LIKE 'Romania'");
 
         // Get cities in district
-        //System.out.println("Print cities in the district **********************************************");
-        //a.largestToSmallestPopulationInCity("WHERE District LIKE 'Varna'");
+        System.out.println("Print cities in the district **********************************************");
+        a.largestToSmallestPopulationInCity("WHERE District LIKE 'Varna'");
 
     //GET CAPITALS METHOD INPUTS AND OUTPUTS
 
         // Get capitals in world
-        //System.out.println("Print capitals in the world **********************************************");
-        //a.largestToSmallestPopulationCapitals("");
+        System.out.println("Print capitals in the world **********************************************");
+        a.largestToSmallestPopulationCapitals("");
 
         // Get capitals in continent
-        //System.out.println("Print capitals in the continent **********************************************");
-        //a.largestToSmallestPopulationCapitals("WHERE continent LIKE 'North America'");
+        System.out.println("Print capitals in the continent **********************************************");
+        a.largestToSmallestPopulationCapitals("WHERE continent LIKE 'North America'");
 
         // Get capitals in region
-        //System.out.println("Print capitals in the region **********************************************");
-        //a.largestToSmallestPopulationCapitals("WHERE region LIKE 'Caribbean'");
-
-
-
+        System.out.println("Print capitals in the region **********************************************");
+        a.largestToSmallestPopulationCapitals("WHERE region LIKE 'Caribbean'");
 
         // Disconnect from database
         a.disconnect();
@@ -225,7 +222,6 @@ public class App
             {
                 String countryCode = rset.getString("code");
                 Country country = getCountry(countryCode);
-
                 countries.add(country);
             }
 
@@ -235,7 +231,7 @@ public class App
             for (Country co : countries)
             {
                 myCountryList.add(co);
-                co.displayCountry();
+                System.out.println(co.displayCountry());
             }
             return myCountryList;
 
@@ -247,8 +243,9 @@ public class App
     }
 
     /* Display a list of cities in a specific area organized by descending population */
-    public void largestToSmallestPopulationInCity(String whereQuery)
+    public ArrayList<City> largestToSmallestPopulationInCity(String whereQuery)
     {
+        ArrayList<City> myCitiesList = new ArrayList<City>();
         try
         {
             //SQL statement to get the data out of the database
@@ -274,16 +271,20 @@ public class App
             //Loop through the cities and print them
             for (City ci : cities)
             {
-                ci.displayCity();
+                myCitiesList.add(ci);
+                System.out.println(ci.displayCity());
             }
+            return cities;
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
             System.out.println("Failed to get city details.");
+            return null;
         }
     }
 
-    public void largestToSmallestPopulationCapitals(String whereQuery) {
+    public ArrayList<City> largestToSmallestPopulationCapitals(String whereQuery) {
+        ArrayList<City> myCapitalsList = new ArrayList<City>();
         try {
             //SQL statement to get the data out of the database
             Statement stmt = con.createStatement();
@@ -298,7 +299,6 @@ public class App
             while (rset.next()) {
                 int cityID = rset.getInt("ID");
                 City city = getCity(cityID);
-
                 capitals.add(city);
             }
 
@@ -306,12 +306,15 @@ public class App
 
             //Loop through the cities and print them
             for (City cap : capitals) {
-                cap.displayCity();
+                myCapitalsList.add(cap);
+                System.out.println(cap.displayCity());
             }
+            return capitals;
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
             System.out.println("Failed to get city details.");
+            return null;
         }
     }
 }
